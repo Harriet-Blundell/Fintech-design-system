@@ -7,7 +7,8 @@ interface ButtonProps {
 }
 
 const variantClasses = {
-  primary: "bg-blue-600 text-white hover:bg-blue-700",
+  primary:
+    "hover:bg-yellow-500 hover:text-white [&_svg_path]:hover:fill-white border-2 border-solid border-transparent bg-yellow-500",
   secondary: "bg-gray-200 text-gray-900 hover:bg-gray-300",
   danger: "bg-red-600 text-white hover:bg-red-700",
 };
