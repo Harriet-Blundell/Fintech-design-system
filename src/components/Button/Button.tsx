@@ -10,8 +10,7 @@ interface ButtonProps {
 // It could be extended later down the line
 
 const variantClasses = {
-  primary:
-    "hover:bg-yellow-500 hover:text-white [&_svg_path]:hover:fill-white border-2 border-solid border-transparent bg-yellow-500",
+  primary: "bg-yellow-400 hover:bg-yellow-500",
   secondary: "bg-gray-200 text-gray-900 hover:bg-gray-300",
   danger: "bg-red-600 text-white hover:bg-red-700",
 };
@@ -32,7 +31,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={`rounded font-medium transition-colors ${
+      className={`rounded-xl font-medium transition-colors ${
         variantClasses[variant]
       } ${sizeClasses[size]} ${
         disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"

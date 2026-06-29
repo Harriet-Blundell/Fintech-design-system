@@ -31,17 +31,3 @@ export const Failed: Story = {
     variant: "failed",
   },
 };
-
-export const Positive: Story = {
-  args: {
-    label: "Positive Badge",
-    variant: "positive",
-  },
-};
-
-export const Negative: Story = {
-  args: {
-    label: "Negative Badge",
-    variant: "negative",
-  },
-};
