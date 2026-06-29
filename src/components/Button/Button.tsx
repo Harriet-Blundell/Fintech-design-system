@@ -6,6 +6,9 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
+// Interface is used to describe the shape of an object or function
+// It could be extended later down the line
+
 const variantClasses = {
   primary:
     "hover:bg-yellow-500 hover:text-white [&_svg_path]:hover:fill-white border-2 border-solid border-transparent bg-yellow-500",
